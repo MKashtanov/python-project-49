@@ -19,8 +19,8 @@ def progression_game(max_num=100):
     while len(progression) < len_progression:
         progression.append(str(current_num))
         current_num += step
-    right_answer = str(progression[hidden_position-1])
-    progression[hidden_position-1] = '..'
+    right_answer = str(progression[hidden_position - 1])
+    progression[hidden_position - 1] = '..'
 
     question = ' '.join(progression)
     user_answer = get_user_answer(question)
