@@ -18,3 +18,7 @@
 Пример запуска игры brain-progression
 
 [![asciicast](https://asciinema.org/a/9UdiyNCgVqOFosTPNiQ3nY5xn.svg)](https://asciinema.org/a/9UdiyNCgVqOFosTPNiQ3nY5xn)
+
+Пример запуска игры brain-prime
+
+[![asciicast](https://asciinema.org/a/Txp9d3lBGxF1kHT2luFuZ8lf3.svg)](https://asciinema.org/a/Txp9d3lBGxF1kHT2luFuZ8lf3)
