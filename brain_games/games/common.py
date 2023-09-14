@@ -9,9 +9,9 @@ def get_random_number(max_num=100):
 
 
 def play_game(game, user_name):
-    max_wins = 3
+    MAX_WINS = 3
     count_wins = 0
-    while count_wins < max_wins:
+    while count_wins < MAX_WINS:
         result_game = game()
         if result_game:
             count_wins += 1
