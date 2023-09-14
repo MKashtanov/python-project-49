@@ -14,3 +14,7 @@
 Пример запуска игры brain-gcd:
 
 [![asciicast](https://asciinema.org/a/xmvDhki9iK0vIk28ixlQCTL1L.svg)](https://asciinema.org/a/xmvDhki9iK0vIk28ixlQCTL1L)
+
+Пример запуска игры brain-progression
+
+[![asciicast](https://asciinema.org/a/9UdiyNCgVqOFosTPNiQ3nY5xn.svg)](https://asciinema.org/a/9UdiyNCgVqOFosTPNiQ3nY5xn)
