@@ -10,3 +10,7 @@
 Пример запуска игры brain-calc:
 
 [![asciicast](https://asciinema.org/a/5gp7YenRCZzEaAazEqC63b9Kk.svg)](https://asciinema.org/a/5gp7YenRCZzEaAazEqC63b9Kk)
+
+Пример запуска игры brain-gcd:
+
+[![asciicast](https://asciinema.org/a/xmvDhki9iK0vIk28ixlQCTL1L.svg)](https://asciinema.org/a/xmvDhki9iK0vIk28ixlQCTL1L)
