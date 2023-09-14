@@ -16,8 +16,8 @@ def play_game(game, user_name):
         if result_game:
             count_wins += 1
         else:
-            count_wins = 0
             print(f'Let\'s try again, {user_name}!')
+            return
     print(f'Congratulations, {user_name}!')
 
 
