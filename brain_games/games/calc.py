@@ -10,7 +10,7 @@ def print_rules():
 def calc_game(max_num=100):
     list_action = ['+', '-', '*']
     num_action = get_random_number(3)
-    current_action = list_action[num_action-1]
+    current_action = list_action[num_action - 1]
     num1 = get_random_number(max_num)
     num2 = get_random_number(max_num)
     question = ' '.join([str(num1), current_action, str(num2)])
