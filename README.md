@@ -3,22 +3,22 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd4273dfd358cf5a4e81/maintainability)](https://codeclimate.com/github/MKashtanov/python-project-49/maintainability)
 
-Пример запуска игры brain-even:
+Пример установки и запуска игры brain-even:
 
-[![asciicast](https://asciinema.org/a/607706.svg)](https://asciinema.org/a/607706)
+[![asciicast](https://asciinema.org/a/TJ8YqAxwWsC2HXjP9VodceTzK.svg)](https://asciinema.org/a/TJ8YqAxwWsC2HXjP9VodceTzK)
 
 Пример запуска игры brain-calc:
 
-[![asciicast](https://asciinema.org/a/5gp7YenRCZzEaAazEqC63b9Kk.svg)](https://asciinema.org/a/5gp7YenRCZzEaAazEqC63b9Kk)
+[![asciicast](https://asciinema.org/a/AqlKperNDS9DmI9K45RtgEkvU.svg)](https://asciinema.org/a/AqlKperNDS9DmI9K45RtgEkvU)
 
 Пример запуска игры brain-gcd:
 
-[![asciicast](https://asciinema.org/a/xmvDhki9iK0vIk28ixlQCTL1L.svg)](https://asciinema.org/a/xmvDhki9iK0vIk28ixlQCTL1L)
+[![asciicast](https://asciinema.org/a/cbq4snUUyj3DqO4T3SX8vSV9L.svg)](https://asciinema.org/a/cbq4snUUyj3DqO4T3SX8vSV9L)
 
-Пример запуска игры brain-progression
+Пример запуска игры brain-progression:
 
-[![asciicast](https://asciinema.org/a/9UdiyNCgVqOFosTPNiQ3nY5xn.svg)](https://asciinema.org/a/9UdiyNCgVqOFosTPNiQ3nY5xn)
+[![asciicast](https://asciinema.org/a/Zz3BX3xv9yhWQ7bnwk7otGfAt.svg)](https://asciinema.org/a/Zz3BX3xv9yhWQ7bnwk7otGfAt)
 
-Пример запуска игры brain-prime
+Пример запуска игры brain-prime:
 
-[![asciicast](https://asciinema.org/a/Txp9d3lBGxF1kHT2luFuZ8lf3.svg)](https://asciinema.org/a/Txp9d3lBGxF1kHT2luFuZ8lf3)
+[![asciicast](https://asciinema.org/a/pos2zATtWXlIjMr9oD1uDoEKW.svg)](https://asciinema.org/a/pos2zATtWXlIjMr9oD1uDoEKW)
