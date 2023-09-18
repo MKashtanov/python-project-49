@@ -7,7 +7,7 @@ def print_rules():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
-def isprime(num):
+def is_prime(num):
     for n in range(2, int(num ** 0.5) + 1):
         if num % n == 0:
             return False
@@ -19,6 +19,6 @@ def run_game(max_num=100):
     question = str(num)
 
     user_answer = get_user_answer(question)
-    right_answer = 'yes' if isprime(num) else 'no'
+    right_answer = 'yes' if is_prime(num) else 'no'
     result = check_answer(user_answer, right_answer)
     return result
