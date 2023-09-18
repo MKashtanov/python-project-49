@@ -7,7 +7,7 @@ def print_rules():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
-def even_game(max_num=100):
+def run_game(max_num=100):
     num = get_random_number(max_num)
     question = str(num)
 

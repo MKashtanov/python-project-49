@@ -7,7 +7,7 @@ def print_rules():
     print('What is the result of the expression?')
 
 
-def calc_game(max_num=100):
+def run_game(max_num=100):
     list_action = ['+', '-', '*']
     num_action = get_random_number(3)
     current_action = list_action[num_action - 1]

@@ -8,7 +8,7 @@ def print_rules():
     print('Find the greatest common divisor of given numbers.')
 
 
-def gcd_game(max_num=100):
+def run_game(max_num=100):
     num1 = get_random_number(max_num)
     num2 = get_random_number(max_num)
     question = ' '.join([str(num1), str(num2)])

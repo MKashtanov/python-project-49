@@ -7,7 +7,7 @@ def print_rules():
     print('What number is missing in the progression?')
 
 
-def progression_game(max_num=100):
+def run_game(max_num=100):
     max_step = 10
     step = get_random_number(max_step)
     len_progression = 4 + get_random_number(6)  # длина 5-10 чисел

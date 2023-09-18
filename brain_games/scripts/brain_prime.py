@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 from brain_games.cli import welcome_user
 from brain_games.games.prime import print_rules
-from brain_games.games.prime import prime_game
+from brain_games.games.prime import run_game
 from brain_games.games.common import play_game
 
 
 def main():
     user_name = welcome_user()
     print_rules()
-    play_game(prime_game, user_name)
+    play_game(run_game, user_name)
 
 
 if __name__ == '__main__':

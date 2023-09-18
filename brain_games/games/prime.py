@@ -14,7 +14,7 @@ def isprime(num):
     return True
 
 
-def prime_game(max_num=100):
+def run_game(max_num=100):
     num = get_random_number(max_num)
     question = str(num)
 
