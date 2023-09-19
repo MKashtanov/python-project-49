@@ -3,6 +3,11 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd4273dfd358cf5a4e81/maintainability)](https://codeclimate.com/github/MKashtanov/python-project-49/maintainability)
 
+
+Для запуска понадобятся:
+- Python версии 3.10 и выше
+- Poetry версии 1.2.0 и выше
+
 Пример установки и запуска игры brain-even:
 
 [![asciicast](https://asciinema.org/a/TJ8YqAxwWsC2HXjP9VodceTzK.svg)](https://asciinema.org/a/TJ8YqAxwWsC2HXjP9VodceTzK)
