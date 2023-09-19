@@ -1,4 +1,3 @@
-from brain_games.scripts.brain_games import main as welcome
 import prompt
 import importlib
 import importlib.util
@@ -14,7 +13,7 @@ def play_game(game_name):
         print(f'Unknown game "{game_name}"')
         return
 
-    user_name = welcome()
+    user_name = get_user_name()
     print(game.get_rules())
 
     count_wins = 0
@@ -32,6 +31,13 @@ def play_game(game_name):
 def run_game(params):
     user_answer = get_user_answer(params['question'])
     return check_answer(user_answer, params['right_answer'])
+
+
+def get_user_name():
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    return name
 
 
 def get_user_answer(question):
