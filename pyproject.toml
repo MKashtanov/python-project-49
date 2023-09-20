@@ -6,6 +6,10 @@ authors = ["MKashtanov <MKashtanov@mail.ru>"]
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Games/Entertainment"
+]
 repository = "https://github.com/MKashtanov/python-project-49"
 
 
