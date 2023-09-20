@@ -6,17 +6,6 @@ def get_rules():
     return 'What is the result of the expression?'
 
 
-def get_right_answer(num1, num2, action):
-    result = ''
-    if action == '+':
-        result = operator.add(num1, num2)
-    elif action == '-':
-        result = operator.sub(num1, num2)
-    elif action == '*':
-        result = operator.mul(num1, num2)
-    return str(result)
-
-
 def get_action(str_action):
     result = ''
     if str_action == '+':
