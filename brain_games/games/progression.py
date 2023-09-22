@@ -1,19 +1,19 @@
 import random
 
 MAX_STEP = 10
+MAX_NUM = 100
 MAX_LEN_PROGRESSION = 10
 MIN_LEN_PROGRESSION = 5
 
 
-def get_rules():
+def get_rules_game():
     return 'What number is missing in the progression?'
 
 
-def generate_progression(max_num):
+def generate_progression():
     step = random.randint(1, MAX_STEP)
-    delta_len = random.randint(0, (MAX_LEN_PROGRESSION - MIN_LEN_PROGRESSION))
-    len_progression = MAX_LEN_PROGRESSION - delta_len
-    first_num = random.randint(1, max_num)
+    len_progression = random.randint(MIN_LEN_PROGRESSION, MAX_LEN_PROGRESSION)
+    first_num = random.randint(1, MAX_NUM)
     progression = []
     for current_num in range(first_num,
                              first_num + (len_progression * step), step):
@@ -21,9 +21,9 @@ def generate_progression(max_num):
     return progression
 
 
-def get_param_game(max_num=100):
+def get_params_round():
     result = {}
-    progression = generate_progression(max_num)
+    progression = generate_progression()
     hidden_position = random.randint(0, (len(progression) - 1))
 
     right_answer = str(progression[hidden_position])

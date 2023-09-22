@@ -1,31 +1,32 @@
 import random
 import operator
 
+MAX_NUM = 100
 
-def get_rules():
+
+def get_rules_game():
     return 'What is the result of the expression?'
 
 
-def get_action(str_action):
+def get_operator(str_operator):
     result = ''
-    if str_action == '+':
+    if str_operator == '+':
         result = operator.add
-    elif str_action == '-':
+    elif str_operator == '-':
         result = operator.sub
-    elif str_action == '*':
+    elif str_operator == '*':
         result = operator.mul
     return result
 
 
-def get_param_game(max_num=100):
+def get_params_round():
     result = {}
-    list_action = ['+', '-', '*']
-    num_action = random.randint(0, 2)
-    str_action = list_action[num_action]
-    action = get_action(str_action)
-    num1 = random.randint(1, max_num)
-    num2 = random.randint(1, max_num)
+    list_operator = ['+', '-', '*']
+    str_operator = list_operator[random.randint(0, len(list_operator)-1)]
+    func_operator = get_operator(str_operator)
+    num1 = random.randint(1, MAX_NUM)
+    num2 = random.randint(1, MAX_NUM)
 
-    result['question'] = ' '.join([str(num1), str_action, str(num2)])
-    result['right_answer'] = str(action(num1, num2))
+    result['question'] = ' '.join([str(num1), str_operator, str(num2)])
+    result['right_answer'] = str(func_operator(num1, num2))
     return result

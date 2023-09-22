@@ -1,36 +1,23 @@
 import prompt
-import importlib
-import importlib.util
 
 MAX_WINS = 3
 
 
-def play_game(game_name):
-    path_module = 'brain_games.games.' + game_name
-    if importlib.util.find_spec(path_module):
-        game = importlib.import_module(path_module)
-    else:
-        print(f'Unknown game "{game_name}"')
-        return
-
+def play_game(get_rules_game, get_params_round):
     user_name = get_user_name()
-    print(game.get_rules())
+    print(get_rules_game())
 
     count_wins = 0
     while count_wins < MAX_WINS:
-        params = game.get_param_game()
-        result_game = run_game(params)
-        if result_game:
+        params_round = get_params_round()
+        user_answer = get_user_answer(params_round['question'])
+        result_round = check_answer(user_answer, params_round['right_answer'])
+        if result_round:
             count_wins += 1
         else:
             print(f'Let\'s try again, {user_name}!')
             return
     print(f'Congratulations, {user_name}!')
-
-
-def run_game(params):
-    user_answer = get_user_answer(params['question'])
-    return check_answer(user_answer, params['right_answer'])
 
 
 def get_user_name():

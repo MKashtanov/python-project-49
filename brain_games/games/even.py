@@ -1,13 +1,15 @@
 import random
 
+MAX_NUM = 100
 
-def get_rules():
+
+def get_rules_game():
     return 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_param_game(max_num=100):
+def get_params_round():
     result = {}
-    num = random.randint(1, max_num)
+    num = random.randint(1, MAX_NUM)
 
     result['question'] = str(num)
     result['right_answer'] = 'yes' if num % 2 == 0 else 'no'
