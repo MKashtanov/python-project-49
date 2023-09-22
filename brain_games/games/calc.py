@@ -2,28 +2,22 @@ import random
 import operator
 
 MAX_NUM = 100
+MAPPING_OPERATORS = {
+    '+': operator.add,
+    '-': operator.sub,
+    '*': operator.mul
+}
 
 
 def get_rules_game():
     return 'What is the result of the expression?'
 
 
-def get_operator(str_operator):
-    result = ''
-    if str_operator == '+':
-        result = operator.add
-    elif str_operator == '-':
-        result = operator.sub
-    elif str_operator == '*':
-        result = operator.mul
-    return result
-
-
 def get_params_round():
     result = {}
-    list_operator = ['+', '-', '*']
+    list_operator = list(MAPPING_OPERATORS.keys())
     str_operator = list_operator[random.randint(0, len(list_operator) - 1)]
-    func_operator = get_operator(str_operator)
+    func_operator = MAPPING_OPERATORS.get(str_operator, '')
     num1 = random.randint(1, MAX_NUM)
     num2 = random.randint(1, MAX_NUM)
 
