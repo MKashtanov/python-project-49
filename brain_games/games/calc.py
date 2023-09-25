@@ -15,9 +15,8 @@ def get_rules_game():
 
 def get_params_round():
     result = {}
-    list_operator = list(MAPPING_OPERATORS.keys())
-    str_operator = list_operator[random.randint(0, len(list_operator) - 1)]
-    func_operator = MAPPING_OPERATORS.get(str_operator, '')
+    str_operator = random.choice(list(MAPPING_OPERATORS.keys()))
+    func_operator = MAPPING_OPERATORS.get(str_operator)
     num1 = random.randint(1, MAX_NUM)
     num2 = random.randint(1, MAX_NUM)
 
