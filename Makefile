@@ -1,4 +1,3 @@
-#Makefile
 build:
 	poetry build
 
