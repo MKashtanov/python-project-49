@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.game_engine import play_game
-from brain_games.games.even import get_rules_game
-from brain_games.games.even import get_params_round
+from brain_games.games.even import get_rules_game, get_params_round
 
 
 def main():
